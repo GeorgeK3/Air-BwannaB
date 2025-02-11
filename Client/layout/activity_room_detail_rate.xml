@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/roomImageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_placeholder_image" />
+
+        <TextView
+            android:id="@+id/roomNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Room Name"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/noOfPersonsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No. of Persons: 2"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/areaTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Area: 45"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/starsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stars: 4.5"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/noOfReviewsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No. of Reviews: 230"
+            android:layout_marginTop="4dp" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="20dp"
+            android:progressTint="#FFC107" />
+
+        <Button
+            android:id="@+id/button_commit"
+            android:layout_width="208dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="36dp"
+            android:text="Rate"
+            android:textAlignment="center"
+            android:textColor="#ECECEC"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,12 @@
+
+  {
+    "roomName": "Pouris",
+    "noOfPersons": 3,
+    "area": "Xalandri",
+    "stars": 4.2,
+    "noOfReviews": 3,
+    "roomImage": "demo4",
+    "availability": true,
+    "price": 420,
+    "dates": ""
+  }

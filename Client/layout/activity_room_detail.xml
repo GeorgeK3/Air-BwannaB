@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/roomImageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_placeholder_image" />
+
+        <TextView
+            android:id="@+id/roomNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Room Name"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/noOfPersonsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No. of Persons: 2"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/areaTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Area: 45"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/starsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stars: 4.5"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/noOfReviewsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No. of Reviews: 230"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/availabilityTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Availability: Available"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/priceTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price: $150 per night"
+            android:layout_marginTop="4dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_red_dark" />
+
+        <LinearLayout
+            android:id="@+id/datesLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="vertical">
+            <!-- Dates will be dynamically added here -->
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

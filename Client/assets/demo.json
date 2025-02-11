@@ -1,0 +1,12 @@
+
+  {
+    "roomName": "Karekos",
+    "noOfPersons": 2,
+    "area": "Omonoia",
+    "stars": 3.5,
+    "noOfReviews": 5,
+    "roomImage": "demo",
+    "availability": true,
+    "price": 350,
+    "dates": ""
+  }

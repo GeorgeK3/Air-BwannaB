@@ -1,0 +1,7 @@
+
+  {
+    "IP" : "localhost",
+    "Port": 5318,
+    "workerPort" : 5320
+  }
+

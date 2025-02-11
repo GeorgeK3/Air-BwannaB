@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/welcome_manager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:fontFamily="sans-serif-light"
+        android:lineSpacingExtra="8sp"
+        android:text="Welcome manager"
+        android:textAlignment="center"
+        android:textColor="#C42B2B2B"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/button_jsonroom"
+        android:layout_width="276dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="50dp"
+        android:text="Add a room with a json file"
+        android:textAlignment="center"
+        android:textColor="#ECECEC"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/button_add_dates"
+        android:layout_width="276dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="20dp"
+        android:text="Add booking dates for your rooms"
+        android:textAlignment="center"
+        android:textColor="#ECECEC"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_booked"
+        android:layout_width="276dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="20dp"
+        android:text="Show booked rooms"
+        android:textAlignment="center"
+        android:textColor="#ECECEC"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button_areas"
+        android:layout_width="276dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="20dp"
+        android:text="Show total booked rooms per area"
+        android:textAlignment="center"
+        android:textColor="#ECECEC"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button_logout"
+        android:layout_width="170dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="30dp"
+        android:text="Log Out"
+        android:textAlignment="center"
+        android:textColor="#ECECEC"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+</LinearLayout>

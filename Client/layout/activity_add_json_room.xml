@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFBFF"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/jsonText"
+        android:layout_width="wrap_content"
+        android:layout_height="138dp"
+        android:layout_marginTop="112dp"
+        android:fontFamily="sans-serif-light"
+        android:lineSpacingExtra="8sp"
+        android:text="Please insert the name of the .json file below"
+        android:textAlignment="center"
+        android:textColor="#831695"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/jsonFile"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_marginTop="45dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="RoomName"
+        android:textAlignment="center"
+        android:inputType="text"
+        android:textColor="#292929"
+        android:textSize="19sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/jsonText" />
+
+    <Button
+        android:id="@+id/button_confirm"
+        android:layout_width="170dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="96dp"
+        android:text="Confirm"
+        android:textAlignment="center"
+        android:textColor="#ECECEC"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
