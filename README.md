@@ -18,5 +18,3 @@
 
 - **Course Project:**  
   Developed as part of a distributed programming course, Air-BwannaB demonstrates key concepts in distributed systems and modern Android development.
-
-This overview provides a snapshot of what Air-BwannaB is, what it does, and the core technologies that power it.
